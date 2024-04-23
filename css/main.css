@@ -1,6 +1,3 @@
-/* Fuente: Roboto Condensed */
-
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Fuente: Fjalla One */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
@@ -31,12 +28,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 3rem;
     padding-bottom: 0;
 }
 
 .logo{
-    max-width: 4rem;
+    max-width: 9rem;
+    padding-top: 1.7rem;
 }
 
 
@@ -44,6 +41,7 @@ header {
 .ul-nav {
     display: flex;
     list-style-type: none;
+    padding-top: 3rem;
 }
 
 .li-nav {
@@ -95,6 +93,11 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.20rem;
     line-height: 1.563;
+    transition: all 0.3s;
+}
+
+.boton-menu:hover{
+color: #707070;
 }
 
 
